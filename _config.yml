@@ -1,0 +1,7 @@
+remote_theme: pages-themes/modernist@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+title: Jade's FIS Portfolio
+description: A portfolio for SilentJadeXox to be reviewed by the FIS Development Unit team.
+show_downloads: false
