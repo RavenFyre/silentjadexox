@@ -1,9 +1,9 @@
-#about-me {
+.about-me {
     display: flex;
     align-items: center;
 }
 
-#about-me p {
+.about-me p {
     margin-left: 1em;
 }
 
