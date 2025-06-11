@@ -1,18 +1,1 @@
-.about-me {
-    display: flex;
-    align-items: center;
-}
 
-.about-me p {
-    margin-left: 1em;
-}
-
-img {
-  float: right;
-  margin-left: 20px;
-  margin-top: 50px;
-}
-
-p {
-  overflow: hidden;
-}
