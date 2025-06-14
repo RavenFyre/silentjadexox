@@ -21,6 +21,28 @@ img {
   max-width: 100%;
   max-height:100%;
 }
+
+.btn-group .button {
+  background-color: #4d8ccc;
+  border: 1px solid #346ACC;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group .button:hover {
+  background-color: #5E9BCC;
+}
+
 /* Popup container */
 .popup {
   position: relative;
@@ -91,8 +113,20 @@ img {
       <center><h1>My projects</h1>
       <img src="avatar-on-laptop.png"; alt="Jade's Habbo avatar on a laptop">
       <br>
-      <nav><h3><a href=#suggestions_bot>Suggestions Bot</a> | <a href=#support_bot>Support Bot</a> | <a href=#portfolio_code>Portfolio Code</a> | <a href=#web_page>Web Page</a> | <a href=#portal_pay_guide>Portal & Pay Guide</a></h3></nav>
-      <p>Please see below some of my recent projects.</p></center>
+      <nav>
+        <div class="btn-group">
+          <a href=#suggestions_bot>
+            <button>Suggestions Bot</button>
+          </a> 
+          <button class="button">Button</button>
+          <button class="button">Button</button>
+          <button class="button">Button</button>
+          <button class="button">Button</button>
+          <button class="button">Button</button>
+        </div>
+      </nav>
+       <a href=#support_bot>Support Bot</a> | <a href=#portfolio_code>Portfolio Code</a> | <a href=#web_page>Web Page</a> | <a href=#portal_pay_guide>Portal & Pay Guide</a></h3></nav>
+      <p style="clear:both">Please see below some of my recent projects, or alternatively click on any of the buttons above to jump to the relevant section.</p></center>
     </div>
     <div id="suggestions_bot">
       <h2>Suggestions Bot</h2>
