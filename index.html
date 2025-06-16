@@ -125,32 +125,13 @@ ul {
       <br>
       <nav>
         <div class="btn-group">
-          <button class="button"; onclick="document.location='#suggestions_bot'">Suggestions Bot</button>
+          <button class="button"; onclick="document.location='suggestions_bot.html'">Suggestions Bot</button>
           <button class="button"; onclick="document.location='#support_bot'">Support Bot</button>
           <button class="button"; onclick="document.location='#portfolio_code'">Portfolio Code</button>
           <button class="button"; onclick="document.location='#web_page'">Web Page</button>
           <button class="button"; onclick="document.location='#portal_pay_guide'">Portal & Pay Guide</button>
         </div>
       </nav>
-    </div>
-    <div id="suggestions_bot">
-      <h2>Suggestions Bot</h2>
-      <h3>Overview</h3>
-      <p>Coded primarily in Python with an internal Java database and occasional use of Javascript, TE Suggestions is a Discord Bot made specially for the TLOU Esports (TE) Discord Server, that was operational from 2017-2022 with 900+ members. Using Discord's integrated Modals, buttons and embeds, with minimal use of slash commands, members can post suggestions, vote on others suggestions, and staff can approve/deny suggestions with a reason and a record of the vote counts.</p>
-      <h3>How it works</h3>
-      <ul>
-        <li>There is a bot-posted message in the Discord #suggestions channel, with a button to create a new suggestion.</li>
-        <li>Clicking this button opens a Discord Modal for the user to type in their suggestion.</li>
-        <li>The bot then posts an embedded message which contains the member's username, profile picture and suggestion that they typed, along with 'tick' and 'cross' voting buttons.</li>
-        <li>The bot then deletes the panel message (that has the ability to create a new suggestion) and re-posts it; this creates the illusion of a 'sticky' message which remains the most recent message in the channel for easy-access to submit a new suggestion.</li>
-        <li>For every new suggestion made, the bot uses a Java database to store all of the information, including the vote counts, in an internal directory.</li>
-        <li>Members have the ability to change their mind during the voting phase by selecting a different button (ex: if already clicked 'tick' button, clicking the 'cross' button will remove your 'tick' vote from the bot's internal Java log and count the 'cross' instead)</li>
-        <li>Members of a certain Discord server role (such as Admin members) have access to buttons to accept/deny the suggestions, with the ability to enter an optional message for the reason (via Discord Modal).</li>
-        <li>Once a suggestion has been accepted/rejected, the bot will retrieve the data from the internal Java database, and post a new embedded message in the #suggestions channel which includes the username of the original suggestor, the suggestion, the vote counts of 'tick' vs 'crock', whether it was accepted or rejected, the member who accepted/rejected it, the reason (optional - if left blank, the 'reason' heading will not show), and the embed will either display a green colour if accepted or a red colour if rejected.</li>
-        <li>The bot will also delete the original suggestion from the channel once an admin has finalised the result, and will also ensure the embed to create a new suggestion remains 'sticky' (deletes old post, re-posts).</li>
-      </ul>
-      <h3>Screenshots for demonstration</h3>
-      <h3>Code Snippets</h3>
     </div>
     <div id="support_bot">
       <h2>Ticket system / Support Bot</h2>
