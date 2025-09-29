@@ -4,7 +4,7 @@ Hello! I'm Jade and I am a self-taught programmer. My love for programming start
 
 ---
 
-# ![alt Jade's Habbo avatar on a laptop](avatar-on-laptop.png) My projects
+# ![alt Jade's Habbo avatar on a laptop](images/avatar-on-laptop.png) My projects
 
 ## Suggestions Bot
 
